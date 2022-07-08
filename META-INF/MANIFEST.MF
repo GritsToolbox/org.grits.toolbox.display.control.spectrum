@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MSViewer
+Bundle-SymbolicName: org.grits.toolbox.display.control.spectrum;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.grits.toolbox.display.control.spectrum.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.jfree;bundle-version="1.0.0",
+ org.grits.toolbox.utils,
+ org.eclipse.jface;bundle-version="3.11.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: .
+Export-Package: org.grits.toolbox.display.control.spectrum.chart,
+ org.grits.toolbox.display.control.spectrum.datamodel
